@@ -1,0 +1,32 @@
+c02tf06ch03y:DojoAssignments ericwashington$ ls -R
+MEAN		Python		Ruby		WebFundamentals	iOS		netCore
+
+./MEAN:
+about.txt
+
+./Python:
+about.txt
+
+./Ruby:
+about.txt
+
+./WebFundamentals:
+CSS		Git		HTML		JavaScript	about.txt
+
+./WebFundamentals/CSS:
+about.txt
+
+./WebFundamentals/Git:
+about.txt
+
+./WebFundamentals/HTML:
+about.txt		indentation.html
+
+./WebFundamentals/JavaScript:
+about.txt
+
+./iOS:
+about.txt
+
+./netCore:
+about.txt
