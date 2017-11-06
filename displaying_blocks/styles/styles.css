@@ -1,0 +1,51 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+div	{
+	display:inline-block;
+}
+
+.header {
+	width: 510px;
+	margin:0 auto;
+	display:block;
+}
+
+h1 {
+    display:inline-block;
+}
+
+#wrapper {
+	width: 800px;
+	background-color: #d3d1ad;
+    padding: 20px;
+}
+
+.subcontents{
+	background-color: #f3696f;
+	padding:40px 15px 12px 15px;
+	border: 3px solid black;
+	margin:1px;
+}
+
+img {
+width: 100px;
+}
+
+.subcontents1{
+    background-color:  #82b3ed;
+    padding:15px 15px 12px 15px;
+    border: 3px solid black;
+    margin:1px;
+}
+
+.main {
+	margin: 0 auto;
+	width: 710px;
+	display:block;
+}
+
+
