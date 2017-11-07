@@ -1,0 +1,154 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.container {
+    width: 975px;    
+    margin: 0px auto;
+    background: #42275a; 
+    background: -webkit-linear-gradient(left, #734b6d, #42275a);
+    background: -moz-linear-gradient(left, #734b6d, #42275a);
+    background: -o-linear-gradient(left, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a); 
+    height: 980px;
+}    
+
+header {
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  height: 60px;
+  width: 975px;
+}   
+header h1 {
+    height: 0px;
+    padding: 10px;
+}
+header h3 {
+    float: right;
+    margin: 0px 15px;
+}
+
+
+.main {
+    width: 975px;
+    height: 200px;
+}
+
+.main1 {
+    height: 250px;
+    width: 443px;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: inline-block;
+    margin: 21px;
+    overflow: auto;
+}
+
+.main1 p {
+    padding: 10px;
+}
+
+.main1 a {
+    color: black;
+}
+
+.sub_main {
+    width: 975px;
+    height: 200px;
+    margin: 0px auto;
+    padding: 16px;
+}
+
+h2{
+  color: white;
+  padding: 6px;
+}
+
+.title_header {
+    height: 40px;
+    width:auto;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+img {
+    height: 231px;
+    width: 428px;
+    margin: 7px;
+}
+
+.main2 {
+    height: 340px; 
+    width: 301px;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: inline-block;
+    margin: 70px 5px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.main2 img {
+    height: 155px;
+    width: 301px;
+    margin: 0px;
+}
+
+.main2 p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.main3 {
+    height: 210px;
+    width: 301px;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: inline-block;
+    margin: 70px 5px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main3 img {
+    height: 40px;
+    width: 40px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+footer {
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+  height: 60px;
+  width: 975px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 15px;
+}   
+
+footer p {
+        padding-bottom: 5px;
+}
+
+footer img {
+    height: 19px;
+    width: 20px;
+    margin: 0px 8px;
+}
