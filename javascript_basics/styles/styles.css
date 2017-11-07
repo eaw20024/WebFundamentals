@@ -1,0 +1,89 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+    width: 1200px;
+    background-color: #1c345d;
+    margin: 20px auto;
+    padding: 20px;
+    height: 625px;
+}
+
+#header{
+ height: 90px;
+ background-color:#ce3037;
+ margin-bottom: 15px;
+ border-radius: 10px;
+}
+
+#header h1 {
+ color: #c1d6eb;
+ padding: 20px;
+}
+
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: #2a7c8c;
+ display: inline-block;
+ vertical-align: top;
+ border-radius: 10px;
+}
+
+#nav-menu {
+    font-size: 20px;
+    margin: 35px;
+    padding: 10px;
+    color: #67b9c6;
+}
+
+#nav-menu, #nav-menu2 ul a {
+    color: #67b9c6;
+    text-decoration: underline;
+}
+
+#nav-menu2 {
+    margin: 0px 20px;
+} 
+
+#main_content{
+    height: 400px;
+    width: 950px;
+    background-color: #0e1822;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#main_content h2 {
+    color: #c0d5ea;
+    padding-bottom: 10px;
+}
+
+#main_content p {
+    color: #c0d5ea;
+    padding-bottom: 10px;
+}
+
+#main_content span {
+    color: #67b9c6;
+}
+
+#advertisement{
+ height: 70px;
+ background-color: #5e6673;
+ margin-top: 20px;
+ border-radius: 10px;
+}
+
+#advertisement p a {
+    color:#67b9c6;
+}
+
+#advertisement p {
+    padding-top: 25px;
+    padding-left: 20px;
+}
