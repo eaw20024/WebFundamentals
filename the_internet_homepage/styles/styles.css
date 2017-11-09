@@ -1,0 +1,282 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.container {
+    width: 1150px;    
+    margin: 0px auto;
+    background-color: white;
+    height: 980px;
+}    
+
+.header-top {
+    width: 1150px;    
+    margin: 0px auto;
+    background-color: white;
+    height: 60px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.header-top img {
+    height: auto;
+    width: 60px;
+    padding: 0px 10px;
+    margin: 10px 0px -10px 0px;
+}
+
+h1 span {
+    color: #22659d;
+}
+
+.header-title  {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.header-bottom {
+    width: 1150px;    
+    margin: 0px auto;
+    background-color: #4178a6;
+    height: 60px;
+}
+
+.header-bottom h1 {
+    color: white;
+    padding: 10px;
+}
+
+.top-section {
+    display: -webkit-flex;
+    display: flex;
+    width: 1150px;
+    height: 270px;
+}
+
+.ad-section {
+    width: 215px;
+    height: 250px;
+    margin: 10px;
+}
+
+.ad-section p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blue-button {
+    background-color: #447fb0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.orange-button {
+    background-color: #ef7a00;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0px 11px;
+}
+
+.sky-button {
+    background-color: #4fcbe0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 30px 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+}
+
+.top-section-info {
+    width: 895px;
+    height: 300px;
+    margin: 10px;
+}
+
+.top-information {
+    display: flex;
+    width: 875px;
+    height: 75px;
+    margin: 10px;
+}
+
+.top-information img {
+    height: 15px;
+    width: 15px;
+}
+
+.top-info1 {
+    width: 875px;
+    height: 240px;
+    margin: 92px 0px;
+    position: absolute;
+}
+
+.top-info1 h3 {
+    color: #26679f;
+}
+
+.top-info1 p {
+    padding-bottom: 5px;
+}
+
+.top-info1 ul {
+    margin: 5px 25px;
+}
+
+.top-info1 img {
+    height: auto;
+    width: 305px;
+    margin: 5px 245px;
+}
+
+hr {
+    color: black;
+}
+
+.phone-number {
+    display: flex;
+    width: 210px;
+    height: 65px;
+    margin: 5px 50px;
+    position: absolute;
+    right: 240px;
+}
+
+.phone-number-info {
+    width: 143px;
+    height: 65px;
+    padding-top: 10px;
+}
+
+.phone-number-info p {
+    font-size: 9px;
+    text-align: center;
+}
+
+.phone-number-info h2 {
+    margin: 0px 5px;
+}
+
+.phone-number img {
+    height: auto;
+    width: 65px;
+}
+
+.middle-section {
+    display: -webkit-flex;
+    display: flex;
+    width: 1150px;
+    height: 340px;
+}
+
+.middle-section-ads {
+    width: 255px;
+    height: 325px;
+    margin: 5px;
+    background-image: url("../images/ad_background.png")
+}
+
+.middle-section-ads img {
+    height: auto;
+    width: 135px;
+    padding: 55px 55px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.middle-section-ads p {
+    color: white;
+    font-size: 20px;
+    margin: 3px 6px;
+    text-align: center;
+    padding: 0px 65px;
+}
+
+.middle-section-info {
+    width: 876px;
+    height: 250px;
+    margin: 80px 0px;
+    margin-bottom: 0px;
+}
+
+.middle-section-info h3 {
+    padding-bottom: 5px;
+}
+
+.middle-section-info ol {
+    margin: 0px 35px;
+    font-size: 17px;
+}
+
+.bottom-section {
+    display: -webkit-flex;
+    display: flex;
+    width: 1150px;
+    height: 250px;
+}
+
+.bottom-section-info {
+    display: -webkit-flex;
+    display: flex;
+    width: 860px;
+    height: 235px;
+    background-color: white;
+    margin: 0px 272px;
+    border: 5px solid #0085e0;
+    margin-right: 0px;
+}
+
+.bottom-section-info img {
+    height: auto;
+    width: 250px;
+    margin: 10px;
+}
+
+.bottom-section-content {
+    width: 860px;
+    height: 235px;
+    background-color: white;
+    margin: 0px 272px;
+    border: 5px solid #0085e0;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}
+
+.bottom-section-content p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.bottom-section-info h1 {
+    color: #0085e0;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+}
