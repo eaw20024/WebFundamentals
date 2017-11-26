@@ -1,0 +1,71 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*Container Styles*/
+
+.container {
+    height: 1000px;
+    margin: 0px auto;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 5px solid currentColor;  
+}
+
+#border {
+    border: 1px solid black;
+    height: 20%;
+}
+
+#border h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#border p {
+    margin-top: 10px;
+}
+
+div #boxes, #boxesUp {
+    background: #de9a44;
+    margin: 3px;
+    height: 40px;
+    display: none;
+    margin-top: 10px;
+}
+
+#censor {
+    display: none;
+}
+
+div #censor {
+    position: absolute;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    color: yellow;
+    background: red;
+    left: 0;
+    top: 20px;
+    display: none;
+  }
+
+.selected {
+    color: blue;
+  }
+
+  .red {
+      color: red;
+  }
