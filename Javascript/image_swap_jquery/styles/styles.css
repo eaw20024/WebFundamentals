@@ -1,0 +1,27 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*Container Styles*/
+
+.container {
+    height: 675px;
+    width: 600px;
+    margin-top: 20px;
+    margin: 50px auto;
+}
+
+h1, p {
+    text-align: center;
+    color: black;
+}
+
+img {
+    height: 90px;
+    width: auto;
+    margin: 5px 30px;
+}
+
