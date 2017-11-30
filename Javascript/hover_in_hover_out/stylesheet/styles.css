@@ -1,0 +1,25 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*Container Styles*/
+
+.container {
+    height: 740px;
+    margin: 0px auto;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px 15px;
+    top: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
