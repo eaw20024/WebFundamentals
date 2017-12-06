@@ -1,0 +1,59 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*Container Styles*/
+
+.container {
+    height: 1000px;
+    width: auto;
+    margin: 0px auto;
+    background-image:url("../images/office.png");
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.form_container {
+    height: 65%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+}
+
+.form_div {
+    margin: 0px 0px 0px 200px;
+}
+
+.form_1 {
+    margin: 25px 40px;
+    padding: 25px;
+    color: white;
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 5px solid currentColor;  
+    width: 80%;
+    margin: 0px auto;
+    color: white;
+}
+
+.left, .right {
+    display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
+
+
