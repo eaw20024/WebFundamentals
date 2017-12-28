@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Github Finder App</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link href="https://bootswatch.com/4/simplex/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Guthub Finder</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="searchContainer">
+        <br>
+        <h1>Search Github Users</h1>
+        <p class="lead">Enter a username to fetch a users profile info and repos.</p>
+        <input type="text" id="searchUser" class="form-control" placeholder="Github Username...">
+      </div>
+      <br>
+       <div id="profile"></div>
+       <div id="repos"></div>
+    </main>
+
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="server.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
