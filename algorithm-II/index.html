@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Algorithm II</title>
+</head>
+
+<body>
+    <script>
+
+        function printUpTo(x) {
+            for (var i = 1; i <= 1000; i++) {
+                if (x < 0) {
+                    return false;
+                }
+                console.log(i);
+            }
+        }
+        printUpTo(1000); // should print all the integers from 1 to 1000
+        y = printUpTo(-10); // should return false
+        console.log(y);
+
+        function printSum(x) {
+            var sum = 0;
+            for (var i = 0; i <= x; i++) {
+                sum += i;
+                console.log("i:", i, "sum:", sum);
+            }
+            return sum
+        }
+        y = printSum(255) // should print all the integers from 0 to 255 and with each integer print the sum so far.
+        console.log(y) // should print 32640
+
+        function printSumArray(x) {
+            var sum = 0;
+            for (var i = 0; i < x.length; i++) {
+                sum += x[i];
+            }
+            return sum;
+        }
+        console.log(printSumArray([1, 2, 3])); // should log 6
+
+        function largestElement(arr) {
+            var largestNum = arr[0];
+            for (var i = 1; i < arr.length; i++) {
+                if (arr[i] > largestNum) {
+                    largestNum = arr[i];
+                }
+            }
+            return largestNum
+        }
+        y = largestElement([1, 19, 5, 7, 200, 201, 965, 2, 23, 45, 68, 101]);
+        console.log("The largest number is: ", y);
+
+    </script>
+</body>
+
+</html>
