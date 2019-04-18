@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Algorithm IV</title>
+</head>
+
+<body>
+    <script>
+        function greaterThanY(arr, Y) {
+            var count = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > Y) {
+                    count++;
+                }
+            }
+            return count;
+        }
+        console.log(greaterThanY([1, 2, 3, 4], 2)); // Should print 2
+        console.log(greaterThanY([12, 21, 0, 1, 123, 23, 22, 98.56], 19)); // Should print 6
+        console.log(greaterThanY([false, 'Dojo', -3, 21], 34)); // Should print 0
+
+        function maxMinAvg(arr) {
+            var min = arr[0];
+            var max = arr[0];
+            var sum = arr[0];
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
+                }
+
+                if (arr[i] < min) {
+                    min = arr[i];
+                }
+                sum += i;
+            }
+
+            var avg = sum / arr.length;
+            var arrnew = [max, min, avg]
+            return arrnew
+        }
+        console.log(maxMinAvg([1, 2, 3, 4])); // Should print out [4, 1, 1.75]
+        console.log(maxMinAvg([12, 24, 11, 22, 0, 1.75])); // Should print out [24, 0, 4.5]
+        console.log(maxMinAvg([0, 1, 0.2, 1.5])); // Should print out [1.5, 0, 1.5]
+
+        function replaceNegatives(arr) {
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] < 0) {
+                    arr[i] = 'Dojo';
+                }
+            }
+            return arr;
+        }
+        console.log(replaceNegatives([1, 5, -1, 120])); // Should print [1, 5, "Dojo", 120]
+        console.log(replaceNegatives([-31, 15, -14, -12])); // Should print ["Dojo", 15, "Dojo", "Dojo"]
+        console.log(replaceNegatives([19, 51, 21, 23])); // Should print [19, 51, 21, 23]
+
+        function removeVals(arr, start, end) {
+            var offset = end - start + 1;
+            for (var i = start; i <= offset; i++) {
+                arr[i] = arr[i + offset]
+            }
+            arr.length = arr.length - offset
+            return arr;
+        }
+        console.log(removeVals([20, 30, 40, 50, 60, 70], 2, 4)); // Should print out [20,30,70]
+    </script>
+</body>
+
+</html>
