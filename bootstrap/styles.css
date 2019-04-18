@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body * {
+    border: 1px solid black;
+} */
+
+.main-row {
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 5px;
+}
