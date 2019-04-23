@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playing with Objects</title>
+    <script>
+        // Practice iterating through an array of objects / dictionaries. 
+        // Imagine that you are given an array of objects.  For example,
+        // var users = [{name: "Michael", age:37}, {name: "John", age:30}, {name: "David", age:27}];
+        // How would you print/log John's age?
+        // How would you print / log the name of the first object ?
+        // How would you print / log the name and age of each user using a for loop ? Your output should look something like this
+
+        var users = [{ name: "Michael", age: 37 },
+        { name: "John", age: 30 },
+        { name: "David", age: 27 }];
+
+        users.forEach((element, index, array) => {
+            console.log(element.name + " - " + element.age)
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
