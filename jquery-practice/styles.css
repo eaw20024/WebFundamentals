@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+  
+p {
+    display: inline;
+    padding-left: 30%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.btn-primary {
+  width: 100px;
+}
+
+div.slideDown {
+  background: #1d3277;
+  margin: 3px;
+  width: 27%;
+  height: 40px;
+  display: none;
+  float: right;
+}
+
+div.slideUp {
+  background: #b82727;
+  margin: 3px;
+  width: 27%;
+  height: 40px;
+  display: block;
+  float: right;
+}
+
+.input {
+  margin-left: 100px;
+  width: 250px;
+}
