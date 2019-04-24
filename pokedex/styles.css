@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.pokemoves, .pokestats {
+    list-style-type: none; 
+}
+
+#pokedex {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#pokemodal {
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    display: none;
+}
+#pokemodal img {
+    width: 100px;
+}
+#close {
+    float: right;
+}
