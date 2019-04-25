@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: darkgray;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+h1, p {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
