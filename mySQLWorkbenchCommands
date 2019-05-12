@@ -1,0 +1,7 @@
+show databases;
+use twitter;
+show tables;
+SELECT * FROM tweets;
+INSERT INTO `twitter`.`tweets` (`tweet`, `user_id`, `created_at`) VALUES ('This is me inserting a tweet', '1', '2014-02-01 00:00:01');
+UPDATE `twitter`.`tweets` SET `tweet` = 'I  updated this tweet' WHERE (`id` = '10');
+DELETE FROM `twitter`.`tweets` WHERE (`id` = '14');
